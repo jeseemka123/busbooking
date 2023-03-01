@@ -1,0 +1,31 @@
+/* .list {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 0px 30px;
+    padding: 10px;
+
+} */
+
+td {
+    text-align: center;
+}
+
+.list {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px 0px 20px;
+    padding: 20px 20px;
+    background-color: #EAECEE;
+    font-family: 'Poppins', sans-serif;
+}
+
+.view {
+    background-color: aqua;
+}
+
+.bold {
+    font-weight: bold;
+    color:#C0392B ;
+}

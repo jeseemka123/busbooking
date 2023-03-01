@@ -1,0 +1,15 @@
+.seat {
+    height: 60px;
+     width: 20px;
+    border: 2px sloid black;
+}
+
+.available {
+    cursor: pointer;    
+    background: white;
+}
+.unavailable {
+    cursor: not-allowed;    
+    background: gray;
+}
+

@@ -1,0 +1,24 @@
+* {
+    margin: 10px;
+    padding: 0;
+  }
+  .App {
+    background-color: antiquewhite;
+    height: 70%;
+    width: 300px;
+    margin: none;
+    padding: none;
+    /* border-radius: ; */
+  }
+  .stearing > img {
+    width: 20%;
+    padding-left: 170px;
+    padding-top: 20px;
+  }
+  .seat {
+    width: 35%;
+    margin-left: 25px;
+    margin: none;
+    padding: none;
+  }
+  

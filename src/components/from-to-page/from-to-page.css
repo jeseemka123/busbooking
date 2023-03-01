@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url('https://img.freepik.com/free-vector/man-looking-route-map-mobile-app_74855-10891.jpg?w=1380&t=st=1674555496~exp=1674556096~hmac=f67fb46229d8a785243fc0c7ea15a165cb44f79dcc33849fb64f89e2bad38f33');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 88vh;
+    width: 1200px;
+}
+
+.search {
+    /* background-color: aqua; */
+    width: 300px;
+    /* float: right; */
+    position: relative;
+    left: 100%;
+    top: 25%;
+}
+
+.btnsrc {
+
+}
+
+
+date:before,
+date:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[type="date"]{
+    background-color: #0080ff;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    /* top: 50%; */
+    left: 50%;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
